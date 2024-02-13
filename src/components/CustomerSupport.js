@@ -16,7 +16,7 @@ export default function CustomerSupport() {
               <h4>Customer Care No. For WhatsApp & Calling</h4>
               <br />
         <div className='custbtn'>
-        <button className="btn btn-warning">+918408922205</button>
+        <button className="btn golden-btn btn-warning">+918408922205</button>
         </div>
       </div>
       <div className="cs-box2">

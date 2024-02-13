@@ -3,7 +3,7 @@ import CardItem from './CardItem'
 
 export default function Games() {
   return (
-    <div className="games-div">
+    <div className="games-div golden-background">
       <h1 className="front-banner-content-heading games-heading">
         How to play
       </h1>
@@ -15,8 +15,8 @@ export default function Games() {
       <hr className="Rotor-line games-line" />
       <br />
       <p className="games-message">We Deal Only On WhatsApp</p>
-      <button className="btn btn-warning">+91 1234567890</button>
-      <button className="btn btn-warning">+91 8493789483</button>
+      <button className="btn golden-btn btn-warning">+91 1234567890</button>
+      <button className="btn golden-btn btn-warning">+91 8493789483</button>
       <div className="games-logo-container">
         <div className='card-container'>
         <CardItem

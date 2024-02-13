@@ -14,13 +14,13 @@ export default function Header() {
         <div className="queries">
           <div className="box1 box">
             <h5>Veiw Our Partners</h5>
-            <button className="btn btn-warning">Click for demo</button>
+            <button className="btn golden-btn btn-warning">Click for demo</button>
           </div>
           <div className="box2 box">
             <h5>For Any Queries WhatsApp Us On</h5>
-            <button className="btn btn-warning">+91 8402849402</button>
+            <button className="btn golden-btn btn-warning">+91 8402849402</button>
             <br />
-            <button className="btn btn-warning">+91 9483828943</button>
+            <button className="btn golden-btn btn-warning">+91 9483828943</button>
           </div>
         </div>
       </div>

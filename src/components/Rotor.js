@@ -64,7 +64,7 @@ export default function Rotor() {
   }, []);
 
   return (
-    <div className="Rotor-div">
+    <div className="Rotor-div golden-background">
       <div className="Rotor-box0" id="wheel">
         <img
           id="wheel-img"
@@ -84,9 +84,9 @@ export default function Rotor() {
         <h3>We Deals Only On WhatsApp</h3>
         <br />
         <br />
-        <button className="btn btn-warning">+918438948999</button>{" "}
+        <button className="btn golden-btn btn-warning">+918438948999</button>{" "}
         &nbsp;&nbsp;&nbsp;&nbsp;
-        <button className="btn btn-warning">+914857392747</button>
+        <button className="btn golden-btn btn-warning" >+914857392747</button>
       </div>
       <div className="Rotor-box2" id="wheel">
         <img
