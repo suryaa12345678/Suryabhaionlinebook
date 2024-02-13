@@ -9,30 +9,38 @@ export default function Instagram() {
       </h1>
 
       <div className="instagram-container">
+        <div className='insta-icons'>
         <CardItem
           link={
             "https://www.aaonlinebook.com/images/FS_14-October_AA-Online-Book.jpg"
           }
-          width={"240px"}
+          width={"90%"}
         />
+        </div>
+        <div className='insta-icons'>
         <CardItem
           link={
             "https://www.aaonlinebook.com/images/CMOD_14-October_AA-Online-Book.jpg"
           }
-          width={"240px"}
+          width={"90%"}
         />
+        </div>
+        <div className='insta-icons'>
         <CardItem
           link={
             "https://www.aaonlinebook.com/images/CS_14-October_AA-Online-Book.jpg"
           }
-          width={"240px"}
+          width={"90%"}
         />
+        </div>
+        <div className='insta-icons'>
         <CardItem
           link={
             "https://www.aaonlinebook.com/images/FMOD_14-October_AA-Online-Book.jpg"
           }
-          width={"240px"}
+          width={"90%"}
         />
+        </div>
       </div>
     </div>
   );

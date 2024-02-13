@@ -1,10 +1,13 @@
-import React from "react";
-import Slider from "react-slick";
-
-import "slick-carousel/slick/slick.css";
-import "slick-carousel/slick/slick-theme.css";
+import React, { useState } from 'react';
+import Slider from 'react-slick';
+import 'slick-carousel/slick/slick.css';
+import 'slick-carousel/slick/slick-theme.css';
+import Modal from 'react-modal'; // Import react-modal
 
 const Carousel = () => {
+  const [modalIsOpen, setModalIsOpen] = useState(false);
+  const [videoUrl, setVideoUrl] = useState('');
+
   const settings = {
     infinite: true,
     slidesToShow: 2,
@@ -22,32 +25,53 @@ const Carousel = () => {
     ],
   };
 
+  // Function to open the popup video
+  const openPopupVideo = (videoUrl) => {
+    setVideoUrl(videoUrl);
+    setModalIsOpen(true);
+  };
+
+  // Function to close the modal
+  const closePopup = () => {
+    setModalIsOpen(false);
+  };
+
   return (
-    <div className="bg-black text-white text-center carosal-heading ">
+    <div className="bg-black text-white text-center carosal-heading">
       <h1>Celebrity Love For AA Online</h1>
       <Slider {...settings}>
-        <div>
+        <div className="actor-talk">
           <img
-            src="https://cdn.britannica.com/12/215912-050-02257657/Indian-actor-Amitabh-Bachchan-2013.jpg"
+            src="https://www.aaonlinebook.com/images/actor.jpg"
             alt="Image 1"
-            style={{ width: "45vw", height: "70vh" }}
+            className="center-image"
+            onClick={() => openPopupVideo('https://www.aaonlinebook.com/video/actor-vid.mp4')} 
           />
         </div>
-        <div>
+        <div className="actor-talk">
           <img
-            src="https://www.financialexpress.com/wp-content/uploads/2023/01/Shahid-Kapoor-n-1200by667.jpg"
+            src="https://www.aaonlinebook.com/images/actor1.jpg"
             alt="Image 2"
-            style={{ width: "45vw", height: "70vh" }}
-          />
-        </div>
-        <div>
-          <img
-            src="https://akm-img-a-in.tosshub.com/sites/visualstory/wp/2023/11/salman-khan-18.jpg?size=*:900"
-            alt="Image 3"
-            style={{ width: "45vw", height: "70vh" }}
+            className="center-image"
+            onClick={() => openPopupVideo('https://www.aaonlinebook.com/video/actor-vid1.mp4')}
           />
         </div>
       </Slider>
+
+      <Modal
+        isOpen={modalIsOpen}
+        onRequestClose={closePopup}
+        contentLabel="Video Modal"
+      >
+        <iframe
+          height="400"
+          src={videoUrl}
+          title="Popup Video"
+          frameBorder="0"
+          allowFullScreen
+        ></iframe> <br />
+        <button className='btn btn-warning' onClick={closePopup}>Close</button>
+      </Modal>
     </div>
   );
 };

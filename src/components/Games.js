@@ -5,7 +5,7 @@ export default function Games() {
   return (
     <div className="games-div">
       <h1 className="front-banner-content-heading games-heading">
-        How to place
+        How to play
       </h1>
       <h2>Your bet in our IDs</h2>
       <p className="games-content">
@@ -14,35 +14,45 @@ export default function Games() {
       </p>
       <hr className="Rotor-line games-line" />
       <br />
-      <p className="games-content">We Deal Only On WhatsApp</p>
-      <button className="btn btn-warning">+911234567890</button> &nbsp;&nbsp;
-      <button className="btn btn-warning">+918493789483</button>
+      <p className="games-message">We Deal Only On WhatsApp</p>
+      <button className="btn btn-warning">+91 1234567890</button>
+      <button className="btn btn-warning">+91 8493789483</button>
       <div className="games-logo-container">
+        <div className='card-container'>
         <CardItem
           link={"https://www.aaonlinebook.com/images/crr.png"}
-          width={"130px"}
+          width={"80%"}
           label={"Cricket"}
         />
+        </div>
+        <div className='card-container'>
         <CardItem
           link={"https://www.aaonlinebook.com/images/boot.png"}
-          width={"130px"}
+          width={"80%"}
           label={"Football"}
         />
+        </div>
+        <div className='card-container'>
         <CardItem
           link={"https://www.aaonlinebook.com/images/ten.png"}
-          width={"130px"}
+          width={"80%"}
           label={"Tennis"}
         />
+        </div>
+        <div className='card-container'>
         <CardItem
           link={"https://www.aaonlinebook.com/images/cas.png"}
-          width={"130px"}
+          width={"80%"}
           label={"Casino"}
         />
+        </div>
+        <div className='card-container'>
         <CardItem
           link={"https://www.aaonlinebook.com/images/teen.png"}
-          width={"130px"}
+          width={"80%"}
           label={"Teen Patti"}
         />
+        </div>
       </div>
     </div>
   );

@@ -1,4 +1,3 @@
-
 import React, { useEffect } from 'react';
 
 export default function Rotor() {
@@ -66,6 +65,13 @@ export default function Rotor() {
 
   return (
     <div className="Rotor-div">
+      <div className="Rotor-box0" id="wheel">
+        <img
+          id="wheel-img"
+          src="https://www.aaonlinebook.com/images/unnamed.png"
+          alt=""
+        />
+      </div>
       <div className="Rotor-box1">
         <h1 className="front-banner-content-heading">
           The Punter Friendly BOOK

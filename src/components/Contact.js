@@ -24,13 +24,13 @@ export default function Contact() {
             </p>
             <hr />
             <p className="contact-content">Whatsapp us on</p>
-            <button className="btn btn-warning">+9183924928374</button>{" "}
+            <button className="btn btn-warning">+91 83924928374</button>{" "}
             &nbsp;&nbsp;
-            <button className="btn btn-warning">+9173927383472</button>
+            <button className="btn btn-warning">+91 73927383472</button>
             <p className="contact-content">
               With Our Step-By-Step Guide For Beginners
             </p>
-            <button className="btn btn-warning">+913729734923</button>
+            <button className="btn btn-warning">+91 3729734923</button>
           </div>
         </div>
       </div>

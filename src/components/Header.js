@@ -18,9 +18,9 @@ export default function Header() {
           </div>
           <div className="box2 box">
             <h5>For Any Queries WhatsApp Us On</h5>
-            <button className="btn btn-warning">+918402849402</button>
-            <br /> <br />
-            <button className="btn btn-warning">+919483828943</button>
+            <button className="btn btn-warning">+91 8402849402</button>
+            <br />
+            <button className="btn btn-warning">+91 9483828943</button>
           </div>
         </div>
       </div>
@@ -28,7 +28,8 @@ export default function Header() {
       <div className="front-banner">
         <div className="front-banner-content">
           <h1 className="front-banner-content-heading">
-            AA ONLINE BOOK THE BRAND YOU CAN TRUST
+            AA ONLINE BOOK <br />
+            THE BRAND YOU CAN TRUST
           </h1>
           <br />
           <h4 className="front-banner-content-sub-heading">
@@ -36,7 +37,7 @@ export default function Header() {
           </h4>
         </div>
         <div className="front-banner-image">
-          <img width={'100%'} src="https://www.aaonlinebook.com/images/girl2.png" 
+          <img className='bottom-right-image' src="https://www.aaonlinebook.com/images/girl2.png" 
           />
         </div>
       </div>
