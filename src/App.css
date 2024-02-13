@@ -6,7 +6,6 @@
     color: white;
     height: 100vh;
     background-attachment: fixed;
-    overflow-y: auto;
 }
 .header {
     display: flex;
@@ -153,7 +152,7 @@
     padding: 30px 5%;
     background-image: url('https://www.aaonlinebook.com/images/baner-2.jpg');
     background-position: center center; 
-    background-size: 100% 100%; 
+    background-size: cover; 
     color: white;
 }
 
@@ -211,6 +210,7 @@
     display: flex;
     align-items: center;
     justify-content: space-evenly;
+    background-attachment: fixed;
 }
 .cs-box1 {
     width: 50vw;
@@ -330,6 +330,7 @@
         display: flex;
         flex-direction: column;
     }
+    
     .logo img{
         height: 150px;
     }
@@ -346,6 +347,7 @@
 
     .front-banner{
         flex-direction: column;
+        padding-bottom: 360px;
     }
 
     .front-banner-image {

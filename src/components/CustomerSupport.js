@@ -22,7 +22,7 @@ export default function CustomerSupport() {
       <div className="cs-box2">
         <div>
         <img
-          src="https://www.aaonlinebook.com/images/online%20book%20logo-02%20(1).png"
+          src="/Suryabhai_logo.png"
                   alt=""
                   width={'100%'}
         />

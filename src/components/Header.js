@@ -6,7 +6,7 @@ export default function Header() {
       <div className="header">
         <div className="logo">
           <img
-            src="https://www.aaonlinebook.com/images/online%20book%20logo-02%20(1).png"
+            src='/Suryabhai_logo.png'
             alt=""
             height={"200px"}
           />
@@ -37,7 +37,7 @@ export default function Header() {
           </h4>
         </div>
         <div className="front-banner-image">
-          <img className='bottom-right-image' src="https://www.aaonlinebook.com/images/girl2.png" 
+          <img className='bottom-right-image' src="https://www.aaonlinebook.com/images/girl2.png"  alt=""
           />
         </div>
       </div>

@@ -6,7 +6,7 @@ export default function Contact() {
         <div className="contact-container ">
           <div className="contact-box1">
                     <img
-              src="https://www.aaonlinebook.com/images/online%20book%20logo-02%20(1).png"
+              src="/Suryabhai_logo.png"
                         alt=""
               width={"300px"}
             />
