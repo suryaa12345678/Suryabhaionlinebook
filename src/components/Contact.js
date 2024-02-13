@@ -24,8 +24,7 @@ export default function Contact() {
             </p>
             <hr />
             <p className="contact-content">Whatsapp us on</p>
-            <button className="btn golden-btn btn-warning">+91 83924928374</button>{" "}
-            &nbsp;&nbsp;
+            <button className="btn golden-btn btn-warning">+91 83924928374</button>
             <button className="btn golden-btn btn-warning">+91 73927383472</button>
             <p className="contact-content">
               With Our Step-By-Step Guide For Beginners
