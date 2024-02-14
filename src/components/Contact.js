@@ -6,7 +6,7 @@ export default function Contact() {
         <div className="contact-container ">
           <div className="contact-box1">
                     <img
-              src="/Suryabhai_logo.png"
+              src="/Suryabhailogo.png"
                         alt=""
               width={"300px"}
             />

@@ -6,6 +6,7 @@
     color: white;
     height: 100vh;
     background-attachment: fixed;
+    overflow-y: auto;
 }
 .header {
     display: flex;
@@ -14,7 +15,6 @@
 }
 
 .header .logo{
-    width: 30vw;
     margin: 0 10%;
 }
 
@@ -332,7 +332,7 @@
     }
     
     .logo img{
-        height: 150px;
+        height: 200px;
     }
 
     .box {

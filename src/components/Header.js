@@ -6,9 +6,9 @@ export default function Header() {
       <div className="header">
         <div className="logo">
           <img
-            src='/Suryabhai_logo.png'
+            src='/Suryabhailogo.png'
             alt=""
-            height={"200px"}
+            height={"350px"}
           />
         </div>
         <div className="queries">
