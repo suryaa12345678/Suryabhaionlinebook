@@ -4,9 +4,8 @@
     background-position: center center; 
     background-size: cover; 
     color: white;
-    height: 100vh;
+    height: auto;
     background-attachment: fixed;
-    overflow-y: auto;
 }
 .header {
     display: flex;
@@ -347,7 +346,7 @@
 
     .front-banner{
         flex-direction: column;
-        padding-bottom: 360px;
+        padding-bottom: 200px;
     }
 
     .front-banner-image {
@@ -359,8 +358,8 @@
     .bottom-right-image {
         position: static;
         margin-top: 20px;
-        height: 100%;
-        width: 100%;
+        height: 84%;
+        width: auto;
         object-fit: contain;
       }
     .front-banner-content {
@@ -382,6 +381,7 @@
     }
     .card-container{
         width: 45%;
+        text-align: center;
     }
     
     .sponser-list {
