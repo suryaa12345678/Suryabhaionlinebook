@@ -18,10 +18,10 @@ function App() {
       {/* <Header /> */}
       <Index />
       <Sponser />
-      <Welcome />
       <Rotor />
-      <CustomerSupport />
+      <Welcome />
       <Games />
+      <CustomerSupport />
       <Carousel />
       <Instagram />
       <Contact />

@@ -4,6 +4,18 @@ export default function CustomerSupport() {
   return (
     <div className="cust-sup-div bg-dark ">
       <div className="WrapperTransparent">
+        <div className="cs-box2">
+          <div>
+            <img
+              src="/Suryabhailogo.png"
+              alt=""
+              width={'60%'}
+            />
+          </div>
+          <div>
+            <h1 className="front-banner-content-heading">24 HOURS SERVICES</h1>
+          </div>
+        </div>
         <div className="cs-box1">
           <h1 className="front-banner-content-heading supt_hed">Customer Support</h1>
           <h4>
@@ -22,18 +34,6 @@ export default function CustomerSupport() {
           <br />
           <div className='custbtn'>
             <button className="btn golden-btn btn-warning">+918408922205</button>
-          </div>
-        </div>
-        <div className="cs-box2">
-          <div>
-            <img
-              src="/Suryabhailogo.png"
-              alt=""
-              width={'100%'}
-            />
-          </div>
-          <div>
-            <h1 className="front-banner-content-heading">24 HOURS SERVICES</h1>
           </div>
         </div>
       </div>
