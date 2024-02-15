@@ -528,6 +528,14 @@
 
     .whybox{
         flex-direction: column;
+        width: 100%;
+    }
+    .whybox li{
+        width: 100%;
+    }
+    .wbox{
+        width: 100%;
+        list-style: circle;
     }
 
     .instagram-container{
@@ -594,6 +602,7 @@
       .frontRight{
         width: 100vw;
         margin: 0 0;
+        padding: 20px;
         text-align: center;
       }
 
