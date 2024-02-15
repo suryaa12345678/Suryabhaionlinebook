@@ -6,12 +6,16 @@ export default function CustomerSupport() {
       <div className="cs-box1">
         <h1 className="front-banner-content-heading supt_hed">Customer Support</h1>
         <h4>
-          Get In Touch With AA Online BOOK CUSTOMER CARE For Any Queries,
+          Get In Touch With SuryaBhai Online BOOK CUSTOMER CARE For Any Queries,
           Emergencies, Feedbacks or Complaints. We Are Here To Help You 24/7
           With Our Online Services.
               </h4>
               <br />
               <hr className="Rotor-line" />
+              <br />
+              <h4>2 Days Fastest Deposit and Instant withdrawals</h4>
+              <br />
+              <h4>Opportunity to win Big</h4>
               <br />
               <h4>Customer Care No. For WhatsApp & Calling</h4>
               <br />

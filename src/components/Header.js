@@ -27,13 +27,17 @@ export default function Header() {
 
       <div className="front-banner">
         <div className="front-banner-content">
+          <span>
           <h1 className="front-banner-content-heading">
-            AA ONLINE BOOK <br />
-            THE BRAND YOU CAN TRUST
+            SuryaBhai <br/>ONLINE BOOK
           </h1>
+          </span>
+          <h4 className="front-banner-content-sub-heading">
+          Favourite of north and south punters
+          </h4>
           <br />
           <h4 className="front-banner-content-sub-heading">
-            KHELO AUR JEETO ASIA KI BIGGEST BOOK KE SATH
+          Play online for real money in India and make bet on games like Cricket, Casino, Football, Tennis and many more.
           </h4>
         </div>
         <div className="front-banner-image">

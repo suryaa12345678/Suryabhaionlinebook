@@ -4,7 +4,7 @@
     background-position: center center; 
     background-size: cover; 
     color: white;
-    height: auto;
+    height: 100vh;
     background-attachment: fixed;
 }
 .header {
@@ -33,7 +33,7 @@
     height: 60vh;
 }
 .front-banner-content {
-    width: 59vw;
+    width: 60vw;
     margin: 0 10%;
 }
 
@@ -119,7 +119,7 @@
 }
 .bottom-right-image {
     position: absolute;
-    width: 40%;
+    height: 60%;
     bottom: 0;
     right: 0;
     max-width: 100%;
@@ -152,7 +152,23 @@
     background-image: url('https://www.aaonlinebook.com/images/baner-2.jpg');
     background-position: center center; 
     background-size: cover; 
+    background-attachment: fixed;
     color: white;
+    padding: 2% 10%;
+    margin: 0;
+}
+.whyhead{
+    text-align: center;
+}
+.whybox{
+    display: flex;
+}
+.wbox{
+    width: 50%;
+    margin: auto;
+    font-size: 1.2rem;
+    list-style:circle;
+    font-weight: 500;
 }
 
 .footer {
@@ -168,7 +184,6 @@
 .Rotor-div {
     display: flex;
     color: white;
-
     min-height: 70vh;
     align-items: center;
     justify-content: space-around;
@@ -293,7 +308,7 @@
 }
 .contact-box2 .btn {
     font-weight: 700;
-    margin: 0 10px;
+    margin: 0 10px 10px 0;
 }
 .contact-content {
     font-size: 20px;
@@ -325,6 +340,9 @@
 /* Responsiveness for Mobile */
 @media only screen and (max-width: 767px) {
     /* Styles for mobile */
+    .header-div{
+        height: auto;
+    }
     .header {
         display: flex;
         flex-direction: column;
@@ -357,8 +375,8 @@
 
     .bottom-right-image {
         position: static;
-        margin-top: 20px;
-        height: 84%;
+        margin-top: 38px;
+        height: 100%;
         width: auto;
         object-fit: contain;
       }

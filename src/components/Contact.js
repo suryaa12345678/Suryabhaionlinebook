@@ -16,7 +16,7 @@ export default function Contact() {
           </div>
           <div className="contact-box2">
             <h1 className="front-banner-content-heading">
-              Get In Touch With AA Online Book Customer Care
+              Get In Touch With SuryaBhai Online Book Customer Care
             </h1>
             <p className="contact-content">
               For Any Queries, Emergencies, Feedbacks or Complaints. We Are Here

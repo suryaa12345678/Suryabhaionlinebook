@@ -38,7 +38,7 @@ const Carousel = () => {
 
   return (
     <div className="bg-black text-white text-center carosal-heading">
-      <h1>Celebrity Love For AA Online</h1>
+      <h1 className='front-banner-content-heading'>Celebrity Love</h1>
       <Slider {...settings}>
         <div className="actor-talk">
           <img
