@@ -8,31 +8,25 @@ export default function Sponser() {
       <div className="sponser-list">
         <div className='card-container'>
         <CardItem
-          link={"/Suryabhailogo.png"}
+          link={"/SportbuzexchLogo.png"}
           width={"80%"}
         />
         </div>
         <div className='card-container'>
         <CardItem
-          link={"/Suryabhailogo.png"}
+          link={"/sportbuzz777logo.png"}
           width={"80%"}
         />
         </div>
         <div className='card-container'>
         <CardItem
-          link={"/Suryabhailogo.png"}
+          link={"/SportbuzexchLogo.png"}
           width={"80%"}
         />
         </div>
         <div className='card-container'>
         <CardItem
-          link={"/Suryabhailogo.png"}
-          width={"80%"}
-        />
-        </div>
-        <div className='card-container'>
-        <CardItem
-          link={"/Suryabhailogo.png"}
+          link={"/SportbuzexchLogo.png"}
           width={"80%"}
         />
         </div>
