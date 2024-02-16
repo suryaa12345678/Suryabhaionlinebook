@@ -648,6 +648,10 @@
         height: 50px;
         margin: 10px auto;
     }
+    .whatsappContact{
+        display: flex;
+        flex-direction: column;
+    }
 
 
 
