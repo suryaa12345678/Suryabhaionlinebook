@@ -42,14 +42,21 @@
     margin: 0 10%;
 }
 
+.queries{
+    display: flex;
+    flex-direction: column;
+    /* gap: 40px; */
+}
+
 .box {
-    margin: 20px;
+    margin: 20px 0;
 }
 .box .btn{
     height: 50px;
-    margin: 8px;
     font-weight: 700;
     font-size: large;
+    margin: 0!important;
+
 }
 
 .front-banner {
@@ -186,18 +193,25 @@
     padding: 2% 10%;
     margin: 0;
 }
+.whycontent{
+    display: flex;
+    justify-content: space-between;
+}
 .whyhead{
     text-align: center;
 }
 .whybox{
+    width: 50vw;
     display: flex;
-}
-.wbox{
-    width: 50%;
-    margin: auto;
+    flex-direction: column;
     font-size: 1.2rem;
     list-style:circle;
     font-weight: 500;
+    justify-content: center;
+}
+
+.whyimg img{
+    width: 40vw;
 }
 
 .footer {
@@ -232,6 +246,13 @@
 }
 .Rotor-box2 {
     width: 40vw;
+}
+
+.actor-talk{
+    height: 600px;
+}
+.actor-talk img{
+    height: 100%;
 }
 
 
@@ -445,6 +466,20 @@
         justify-content: center;
         align-items: center;
 
+    }
+
+    .whycontent{
+        display: flex;
+        flex-direction: column;
+    }
+    .whyimg{
+        display: none;
+    }
+    .whybox{
+        font-size: 1rem;
+        list-style:disc;
+        margin: 20px 0;
+        color: white;
     }
     
     .sponser-list {

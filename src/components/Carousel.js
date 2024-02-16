@@ -42,18 +42,34 @@ const Carousel = () => {
       <Slider {...settings}>
         <div className="actor-talk">
           <img
-            src="https://www.aaonlinebook.com/images/actor.jpg"
+            src="/celb1.jpg"
             alt="Image 1"
             className="center-image"
-            onClick={() => openPopupVideo('https://www.aaonlinebook.com/video/actor-vid.mp4')} 
+            onClick={() => openPopupVideo('#')} 
           />
         </div>
         <div className="actor-talk">
           <img
-            src="https://www.aaonlinebook.com/images/actor1.jpg"
+            src="/celb2.jpg"
             alt="Image 2"
             className="center-image"
-            onClick={() => openPopupVideo('https://www.aaonlinebook.com/video/actor-vid1.mp4')}
+            onClick={() => openPopupVideo('#')}
+          />
+        </div>
+        <div className="actor-talk">
+          <img
+            src="/celb3.jpg_large"
+            alt="Image 3"
+            className="center-image"
+            onClick={() => openPopupVideo('#')}
+          />
+        </div>
+        <div className="actor-talk">
+          <img
+            src="/celb4.jpg"
+            alt="Image 4"
+            className="center-image"
+            onClick={() => openPopupVideo('#')}
           />
         </div>
       </Slider>

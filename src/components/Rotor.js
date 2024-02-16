@@ -74,7 +74,7 @@ export default function Rotor() {
       </div>
       <div className="Rotor-box1">
         <h1 className="front-banner-content-heading">
-          The Punter Friendly BOOK
+          SuryaBhai Online BOOK
         </h1>
         <h3>
           We Deals With All Branded Sites, And Present The Fastest Withdrawal
