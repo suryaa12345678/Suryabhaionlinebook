@@ -171,10 +171,22 @@
 
 .card-container{
     display: flex;
+    flex-direction: column;
+    justify-content: space-between;
     align-items: center;
     width: 23%;
     text-align: center;
 }
+.gname{
+    font-size: 1.2rem;
+    font-weight: 700;
+    padding-top: 20px;
+}
+.whatsappContact{
+    display: flex;
+    gap: 50px;
+}
+
 
 .sponser-list {
     display: flex;
@@ -372,6 +384,7 @@
     font-size: 20px;
     font-weight: bolder;
     display: flex;
+    align-items: center;
 }
 
 
@@ -479,7 +492,6 @@
         font-size: 1rem;
         list-style:disc;
         margin: 20px 0;
-        color: white;
     }
     
     .sponser-list {
@@ -555,6 +567,7 @@
         height: auto;
 
     }
+
     
     .games-div .btn{
         display: block;
@@ -569,7 +582,7 @@
     .games-logo-container{
         flex-direction: column;
         align-items: center;
-
+        gap: 60px;
     }
     .games-logo-container .card-container{
         width: 60%;

@@ -12,7 +12,7 @@ export default function Instagram() {
         <div className='insta-icons'>
         <CardItem
           link={
-            "https://www.aaonlinebook.com/images/FS_14-October_AA-Online-Book.jpg"
+            "/Insta1.png"
           }
           width={"90%"}
         />
@@ -20,7 +20,7 @@ export default function Instagram() {
         <div className='insta-icons'>
         <CardItem
           link={
-            "https://www.aaonlinebook.com/images/CMOD_14-October_AA-Online-Book.jpg"
+            "/Insta2.png"
           }
           width={"90%"}
         />
@@ -28,15 +28,7 @@ export default function Instagram() {
         <div className='insta-icons'>
         <CardItem
           link={
-            "https://www.aaonlinebook.com/images/CS_14-October_AA-Online-Book.jpg"
-          }
-          width={"90%"}
-        />
-        </div>
-        <div className='insta-icons'>
-        <CardItem
-          link={
-            "https://www.aaonlinebook.com/images/FMOD_14-October_AA-Online-Book.jpg"
+            "/Insta3.png"
           }
           width={"90%"}
         />

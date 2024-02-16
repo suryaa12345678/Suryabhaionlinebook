@@ -26,14 +26,14 @@ export default function CustomerSupport() {
           <br />
           <hr className="Rotor-line" />
           <br />
-          <h4>2 Days Fastest Deposit and Instant withdrawals</h4>
+          <h4>1 Minute Instant Deposit <br/> <br/> 5 Minute Superfast Withdrawls</h4>
           <br />
           <h4>Opportunity to win Big</h4>
           <br />
           <h4>Customer Care No. For WhatsApp & Calling</h4>
           <br />
           <div className='custbtn'>
-            <button className="btn golden-btn btn-warning">+918408922205</button>
+            <button className="btn golden-btn btn-warning">+91 8988811133</button>
           </div>
         </div>
       </div>

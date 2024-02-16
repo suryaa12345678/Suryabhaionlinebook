@@ -11,6 +11,8 @@ import Carousel from "./components/Carousel";
 import Instagram from './components/Instagram';
 import Contact from './components/Contact';
 import './App.css';
+import Lottie from 'lottie-react';
+
 
 function App() {
   return (
@@ -22,7 +24,7 @@ function App() {
       <Welcome />
       <Games />
       <CustomerSupport />
-      <Carousel />
+      {/* <Carousel /> */}
       <Instagram />
       <Contact />
       <Footer />

@@ -23,13 +23,20 @@ export default function Contact() {
             To Help You 24/7 With Our Online Services.
           </p>
           <hr />
-          <p className="contact-content">Whatsapp us on</p>
-          <button className="btn golden-btn btn-warning">+91 83924928374</button>
-          <button className="btn golden-btn btn-warning">+91 73927383472</button>
-          <p className="contact-content">
-            With Our Step-By-Step Guide For Beginners
-          </p>
-          <button className="btn golden-btn btn-warning">+91 3729734923</button>
+          <div className='whatsappContact'>
+            <div className='whatsappImage'>
+              <img src='/whatsapp.png' width={'250px'} />
+            </div>
+            <div className='whatsappDetails'>
+              <p className="contact-content">Whatsapp us on:</p>
+              <button className="btn golden-btn btn-warning">+91 8988811133</button>
+              <button className="btn golden-btn btn-warning">+91 8988811144</button>
+              <p className="contact-content">
+                With Our Step-By-Step Guide For Beginners
+              </p>
+              <button className="btn golden-btn btn-warning">+91 8988811133</button>
+            </div>
+          </div>
         </div>
       </div>
     </div>

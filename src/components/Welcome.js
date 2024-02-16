@@ -3,7 +3,7 @@ import React from 'react'
 export default function Welcome() {
   return (
     <div className="Welcome-div">
-      <h1 className="whyhead front-banner-content-heading">Why SuryaBhai bets in India?</h1>
+      <h1 className="whyhead front-banner-content-heading">Why SuryaBhai best in India?</h1>
       <div className='whycontent'>
         <div className='whyimg'>
           <img src="/Suryabhailogo.png" alt="" />

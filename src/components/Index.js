@@ -31,8 +31,8 @@ export default function Index() {
                         </div>
                         <div className="box2 box">
                             <h5>For Any Queries WhatsApp Us On</h5>
-                            <button className="btn golden-btn btn-warning">+91 8402849402</button> &nbsp;
-                            <button className="btn golden-btn btn-warning">+91 9483828943</button>
+                            <button className="btn golden-btn btn-warning">+91 8988811133</button> &nbsp;
+                            <button className="btn golden-btn btn-warning">+91 8988811144</button>
                         </div>
                     </div>
                 </div>
