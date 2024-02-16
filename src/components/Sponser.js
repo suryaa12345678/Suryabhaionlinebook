@@ -21,21 +21,21 @@ export default function Sponser() {
         </div>
         <div className='card-container'>
           <CardItem
-            link={"/sportbuzz777.png"}
+            link={"./sportbuzz777.png"}
             width={"80%"}
             onClick={() => handleCardClick("http://Www.sportbuzz777.com")}
           />
         </div>
         <div className='card-container'>
           <CardItem
-            link={"/SuryaBhaiBuzz.png"}
+            link={"./SuryaBhaiBuzz.png"}
             width={"80%"}
             onClick={() => handleCardClick("http://Www.suryabhaibuzz.com")}
           />
         </div>
         <div className='card-container'>
           <CardItem
-            link={"/SportbuzzExch.png"}
+            link={"./SportbuzzExch.png"}
             width={"80%"}
             onClick={() => handleCardClick("http://Www.suryabhai247.com")}
           />

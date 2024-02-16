@@ -1,6 +1,10 @@
 import React from 'react'
 
 export default function Contact() {
+  const handleCardClick = (url) => {
+    // Open a new page using the specified URL
+    window.open(url, '_blank');
+  };
   return (
     <div className="contact-outer-div bg-black text-white">
       <div className="contact-container ">
@@ -25,7 +29,7 @@ export default function Contact() {
           <hr />
           <div className='whatsappContact'>
             <div className='whatsappImage'>
-              <img src='/whatsapp.png' width={'250px'} />
+              <img src='/whatsapp.png' width={'250px'} onClick={() => handleCardClick("http://www.whatsapp.com")} />
             </div>
             <div className='whatsappDetails'>
               <p className="contact-content">Whatsapp us on:</p>
