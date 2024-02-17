@@ -21,6 +21,7 @@ export default function Games() {
       </p>
       <hr className="Rotor-line games-line" />
       <br />
+      <a target="_blank" href="https://www.whatsapp.com/" class="claimButton"><span>Get your free ID Here</span></a>
       <p className="games-message">
         We Deal Only On WhatsApp
       </p>

@@ -16,28 +16,28 @@ export default function Sponser() {
           <CardItem
             link={"/SportBuzzExch.png"}
             width={"80%"}
-            onClick={() => handleCardClick("http://Www.sportbuzzexch.com")}
+            onClick={() => handleCardClick("http://www.sportbuzzexch.com")}
           />
         </div>
         <div className='card-container'>
           <CardItem
             link={"./sportbuzz777.png"}
             width={"80%"}
-            onClick={() => handleCardClick("http://Www.sportbuzz777.com")}
+            onClick={() => handleCardClick("http://www.sportbuzz777.com")}
           />
         </div>
         <div className='card-container'>
           <CardItem
             link={"./SuryaBhaiBuzz.png"}
             width={"80%"}
-            onClick={() => handleCardClick("http://Www.suryabhaibuzz.com")}
+            onClick={() => handleCardClick("http://www.suryabhaibuzz.com")}
           />
         </div>
         <div className='card-container'>
           <CardItem
-            link={"./SportbuzzExch.png"}
+            link={"./SuryaBhai247.png"}
             width={"80%"}
-            onClick={() => handleCardClick("http://Www.suryabhai247.com")}
+            onClick={() => handleCardClick("http://www.suryabhai247.com")}
           />
         </div>
       </div>

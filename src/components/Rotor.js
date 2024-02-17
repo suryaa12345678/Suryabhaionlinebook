@@ -20,11 +20,10 @@ export default function Rotor() {
         </h3>
         <hr className="Rotor-line" />
         <h3>We Deals Only On WhatsApp</h3>
-        <br />
-        <br />
-        <button className="btn golden-btn btn-warning">+918438948999</button>{" "}
+        <button className="btn golden-btn btn-warning">+91 8988811133</button>{" "}
         &nbsp;&nbsp;&nbsp;&nbsp;
-        <button className="btn golden-btn btn-warning" >+914857392747</button>
+        <button className="btn golden-btn btn-warning" >+91 8988811144</button>
+        <a target="_blank" href="https://www.whatsapp.com/" class="claimButton"><span>Get your free ID Here</span></a>
       </div>
       <div className="Rotor-box2" id="wheel">
       <Lottie animationData={Casino}

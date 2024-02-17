@@ -10,8 +10,10 @@ import Games from './components/Games';
 import Carousel from "./components/Carousel";
 import Instagram from './components/Instagram';
 import Contact from './components/Contact';
+import Offers from './components/Offers';
 import './App.css';
 import Lottie from 'lottie-react';
+import FreeID from './components/FreeID';
 
 
 function App() {
@@ -23,6 +25,8 @@ function App() {
       <Rotor />
       <Welcome />
       <Games />
+      <Offers />
+      <FreeID />
       <CustomerSupport />
       {/* <Carousel /> */}
       <Instagram />

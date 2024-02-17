@@ -1,10 +1,6 @@
 import React from 'react'
 
 export default function Contact() {
-  const handleCardClick = (url) => {
-    // Open a new page using the specified URL
-    window.open(url, '_blank');
-  };
   return (
     <div className="contact-outer-div bg-black text-white">
       <div className="contact-container ">
@@ -17,6 +13,23 @@ export default function Contact() {
           <p className='text-center'>
             --Underage gambling is an offence--
           </p>
+          <div className='whatsappContact'>
+            <div className='whatsappImage'>
+              <a target="_blank" href="https://www.whatsapp.com" class="whatsappicon">
+                <img src="./whatsapp.png" alt="WhatsApp" width={'50px'} title="WhatsApp" />   WhatsApp
+              </a>
+            </div>
+            <div className='whatsappImage'>
+              <a target="_blank" href="https://www.whatsapp.com" class="whatsappicon">
+                <img src="./whatsapp.png" alt="WhatsApp" width={'50px'} title="WhatsApp" />   WhatsApp
+              </a>
+            </div>
+            <div className='whatsappImage'>
+              <a target="_blank" href="https://www.whatsapp.com" class="whatsappicon">
+                <img src="./whatsapp.png" alt="WhatsApp" width={'50px'} title="WhatsApp" />   WhatsApp
+              </a>
+            </div>
+          </div>
         </div>
         <div className="contact-box2">
           <h1 className="front-banner-content-heading">
@@ -27,20 +40,17 @@ export default function Contact() {
             To Help You 24/7 With Our Online Services.
           </p>
           <hr />
-          <div className='whatsappContact'>
-            <div className='whatsappImage'>
-              <img src='/whatsapp.png' width={'250px'} onClick={() => handleCardClick("http://www.whatsapp.com")} />
-            </div>
-            <div className='whatsappDetails'>
-              <p className="contact-content">Whatsapp us on:</p>
-              <button className="btn golden-btn btn-warning">+91 8988811133</button>
-              <button className="btn golden-btn btn-warning">+91 8988811144</button>
-              <p className="contact-content">
-                With Our Step-By-Step Guide For Beginners
-              </p>
-              <button className="btn golden-btn btn-warning">+91 8988811133</button>
-            </div>
+
+          <div className='whatsappDetails'>
+            <p className="contact-content">Whatsapp us on:</p>
+            <button className="btn golden-btn btn-warning">+91 8988811133</button>
+            <button className="btn golden-btn btn-warning">+91 8988811144</button>
+            <p className="contact-content">
+              With Our Step-By-Step Guide For Beginners
+            </p>
+            <button className="btn golden-btn btn-warning">+91 8988811133</button>
           </div>
+
         </div>
       </div>
     </div>
