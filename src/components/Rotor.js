@@ -3,6 +3,10 @@ import Lottie from 'lottie-react';
 import Casino from './Casino.json';
 
 export default function Rotor() {
+  const handleButtonClick = (url) => {
+    // Open the specified URL in a new tab
+    window.open(url, '_blank');
+  };
 
   return (
     <div className="Rotor-div golden-background">
@@ -20,10 +24,10 @@ export default function Rotor() {
         </h3>
         <hr className="Rotor-line" />
         <h3>We Deals Only On WhatsApp</h3>
-        <button className="btn golden-btn btn-warning">+91 8988811133</button>{" "}
+        <button className="btn golden-btn btn-warning" onClick={() => handleButtonClick("https://wa.me/918988811133")}>+91 8988811133</button>{" "}
         &nbsp;&nbsp;&nbsp;&nbsp;
-        <button className="btn golden-btn btn-warning" >+91 8988811144</button>
-        <a target="_blank" href="https://www.whatsapp.com/" class="claimButton"><span>Get your free ID Here</span></a>
+        <button className="btn golden-btn btn-warning" onClick={() => handleButtonClick("https://wa.me/918988811133")} >+91 8988811144</button>
+        <a target="_blank" href="https://wa.me/918988811133" class="claimButton golden-btn"><span>Get your free ID Here</span></a>
       </div>
       <div className="Rotor-box2" id="wheel">
       <Lottie animationData={Casino}

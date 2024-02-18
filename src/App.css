@@ -202,6 +202,45 @@
     gap: 20px;
 }
 
+/* CSS for Partners Modal */
+
+
+.modal-overlay {
+    background-color: rgba(0, 0, 0, 0.5);
+  }
+  
+  .modal-content {
+    width: auto;
+    max-width: calc(100% - 100px); /* Adjusted based on content size with 50px padding on each side */
+    margin: 50px auto;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .modal-heading {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+  }
+  
+  .modal-button {
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1rem;
+    transition: background-color 0.3s ease;
+  }
+  
+  .modal-button:hover {
+    background-color: #0056b3;
+  }
+  
+  
+/* CSS for Partners Modal ends here */
+
 .Welcome-div {
     padding: 30px 5%;
     background-color: #000000;
@@ -396,28 +435,30 @@
     display: flex;
     align-items: center;
 }
+.whatsappDetails .golden-btn img{
+    margin: auto 10px;
+}
+
 
 /* CSS for offers Section */
 .offers{
     display: flex;
     background-image: url(../public/BonusBG.png);
-    height: 100vh;
     background-position: center center; 
     background-size: cover; 
     background-attachment: fixed;
+    display: flex;
 }
 .offersTransparent{
     background-color: #000000da;
     display: flex;
     padding: 20px 10%;
-    width: 100vw;
-    width: 100vw;
 }
 
 .offersLeft{
     display: flex;
     flex-direction: column;
-    width: 50vw;
+    width: 50%;
     justify-content: center;
 }
 
@@ -451,7 +492,7 @@
 }
 .offer_list>div span {
     border: 2px dashed goldenrod;
-    border-radius: 6px;
+    border-radius: 20px;
     padding: 20px;
     margin-top: 20px;
     position: relative;
@@ -485,7 +526,7 @@
 
 
 .offersRight{
-    width: 50vw;
+    width: 50%;
     display: flex;
     justify-content: center;
 }
@@ -493,7 +534,7 @@
 
 /* Offers section CSS ends here */
 .idSection{
-    background-image: url(../public/ervices.png);
+    background-image: url(../public/goldenBGImg.jpg);
     background-position: center center; 
     background-size: cover; 
     background-attachment: fixed;
@@ -502,7 +543,7 @@
     display: flex;
     padding: 20px 10%;
     height: 100vh;
-    background-color: #00000067;
+    background-color: #000000d1;
 }
 .idLeft{
     width: 50vw;
@@ -527,25 +568,24 @@
     margin-top: 40px;
 }
 .claimButton {
-    background-color: #ffffff;
+    color: #000000;
     padding: 18px 44px;
     border-radius: 40px;
     font-size: 20px;
-    color: #085531;
     display: inline-flex;
     align-items: center;
     transition: 0.4s linear;
     box-shadow: inset 0 0 0 5px #1f2340;
-    border: 1px solid #41cd7d;
+    border: 1px solid #cd9e41;
     text-transform: capitalize;
-    margin-top: 40px;
+    margin-top: 20px;
     font-weight: 600;
     text-decoration: none;
     width: 290px;
 }
 .claimButton:hover{
     border: 1px solid white;
-    background-color: #41cd7d;
+    background-color: #d49f2b;
     color: white;
 }
 
@@ -556,6 +596,9 @@
     gap: 40px;
     justify-content: end;
 }
+
+/* Info Section CSS starts here */
+
 .infoCards {
     transition: all 0.3s ease-out;
     padding: 40px 20px 36px;
@@ -570,7 +613,10 @@
     width: 250px;
 }
 .infoCards:hover{
-    background-color: rgba(255, 255, 255, 0.377);
+    background-color: rgba(239, 185, 51, 0.5);
+    box-shadow: 0 3px 6px rgba(0,0,0,.16), 0 3px 6px rgba(110,80,20,.4),
+              inset 0 -2px 5px 1px #b17d10,
+                inset 0 -1px 1px 3px rgba(250,227,133,1);
 }
 .icon_box {
     height: 80px;
@@ -594,11 +640,6 @@
     justify-content: flex-end;
     margin: 80px 0;
 }
-
-/* Info Section CSS starts here */
-
-
-
 
 /* Info section ends here */
 
@@ -1010,7 +1051,7 @@
 
 
     .idSection{
-        background-position:right;
+        background-position: center;
     }
     .idTransparentBG{
         flex-direction: column;

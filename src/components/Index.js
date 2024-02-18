@@ -1,6 +1,10 @@
 import React from "react";
 
 export default function Index() {
+    const handleButtonClick = (url) => {
+        // Open the specified URL in a new tab
+        window.open(url, '_blank');
+      };
     return (
         <div className="header-div">
             <div className="WrapperTransparent">
@@ -27,12 +31,12 @@ export default function Index() {
                     <div className="queries">
                         <div className="box1 box">
                             <h5>Veiw Our Partners</h5>
-                            <button className="btn golden-btn btn-warning">Click for demo</button>
+                            <button className="btn golden-btn btn-warning" >Click for demo</button>
                         </div>
                         <div className="box2 box">
                             <h5>For Any Queries WhatsApp Us On</h5>
-                            <button className="btn golden-btn btn-warning">+91 8988811133</button> &nbsp;
-                            <button className="btn golden-btn btn-warning">+91 8988811144</button>
+                            <button className="btn golden-btn btn-warning" onClick={() => handleButtonClick("https://wa.me/918988811133")}>+91 8988811133</button> &nbsp;
+                            <button className="btn golden-btn btn-warning" onClick={()=> handleButtonClick("https://wa.me/918988811144")}>+91 8988811144</button>
                         </div>
                     </div>
                 </div>

@@ -14,6 +14,7 @@ import Offers from './components/Offers';
 import './App.css';
 import Lottie from 'lottie-react';
 import FreeID from './components/FreeID';
+import Partners from './components/Partners';
 
 
 function App() {
@@ -21,7 +22,8 @@ function App() {
     <div className="App">
       {/* <Header /> */}
       <Index />
-      <Sponser />
+      {/* <Sponser /> */}
+      <Partners />
       <Rotor />
       <Welcome />
       <Games />

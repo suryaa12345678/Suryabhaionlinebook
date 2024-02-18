@@ -9,6 +9,10 @@ import Tpatti from './Tpatti.json';
 import Whatsapp from './Whatsapp.json';
 
 export default function Games() {
+  const handleButtonClick = (url) => {
+    // Open the specified URL in a new tab
+    window.open(url, '_blank');
+  };
   return (
     <div className="games-div golden-background">
       <h1 className="front-banner-content-heading games-heading">
@@ -21,12 +25,12 @@ export default function Games() {
       </p>
       <hr className="Rotor-line games-line" />
       <br />
-      <a target="_blank" href="https://www.whatsapp.com/" class="claimButton"><span>Get your free ID Here</span></a>
+      <a target="_blank" href="https://wa.me/918988811133" class="claimButton golden-btn"><span>Get your free ID Here</span></a>
       <p className="games-message">
         We Deal Only On WhatsApp
       </p>
-      <button className="btn golden-btn btn-warning">+91 8988811133</button>
-      <button className="btn golden-btn btn-warning">+91 8988811144</button>
+      <button className="btn golden-btn btn-warning" onClick={() => handleButtonClick("https://wa.me/918988811133")}>+91 8988811133</button>
+      <button className="btn golden-btn btn-warning" onClick={() => handleButtonClick("https://wa.me/918988811144")}>+91 8988811144</button>
       <div className="games-logo-container">
         <div className='card-container'>
           <div className='animation'>

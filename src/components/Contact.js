@@ -1,6 +1,10 @@
 import React from 'react'
 
 export default function Contact() {
+  const handleButtonClick = (url) => {
+    // Open the specified URL in a new tab
+    window.open(url, '_blank');
+  };
   return (
     <div className="contact-outer-div bg-black text-white">
       <div className="contact-container ">
@@ -13,23 +17,7 @@ export default function Contact() {
           <p className='text-center'>
             --Underage gambling is an offence--
           </p>
-          <div className='whatsappContact'>
-            <div className='whatsappImage'>
-              <a target="_blank" href="https://www.whatsapp.com" class="whatsappicon">
-                <img src="./whatsapp.png" alt="WhatsApp" width={'50px'} title="WhatsApp" />   WhatsApp
-              </a>
-            </div>
-            <div className='whatsappImage'>
-              <a target="_blank" href="https://www.whatsapp.com" class="whatsappicon">
-                <img src="./whatsapp.png" alt="WhatsApp" width={'50px'} title="WhatsApp" />   WhatsApp
-              </a>
-            </div>
-            <div className='whatsappImage'>
-              <a target="_blank" href="https://www.whatsapp.com" class="whatsappicon">
-                <img src="./whatsapp.png" alt="WhatsApp" width={'50px'} title="WhatsApp" />   WhatsApp
-              </a>
-            </div>
-          </div>
+
         </div>
         <div className="contact-box2">
           <h1 className="front-banner-content-heading">
@@ -43,12 +31,13 @@ export default function Contact() {
 
           <div className='whatsappDetails'>
             <p className="contact-content">Whatsapp us on:</p>
-            <button className="btn golden-btn btn-warning">+91 8988811133</button>
-            <button className="btn golden-btn btn-warning">+91 8988811144</button>
+            <button className="btn golden-btn btn-warning" onClick={() => handleButtonClick("https://wa.me/918988811133")} >+91 8988811133</button>
+            <button className="btn golden-btn btn-warning" onClick={() => handleButtonClick("https://wa.me/918988811144")} >+91 8988811144</button>
             <p className="contact-content">
               With Our Step-By-Step Guide For Beginners
             </p>
-            <button className="btn golden-btn btn-warning">+91 8988811133</button>
+            <button className="btn golden-btn btn-warning" onClick={() => handleButtonClick("https://t.me/suryabhaionlinebookofficial/")}><img src="./telegram.webp" alt="WhatsApp" width={'30px'} title="WhatsApp" />Telegram</button>
+            <button className="btn golden-btn btn-warning" onClick={() => handleButtonClick("https://www.instagram.com/suryabhaionlinebookofficial/")}><img src="./Instagram.png" alt="WhatsApp" width={'30px'} title="WhatsApp" />Instagram</button>
           </div>
 
         </div>

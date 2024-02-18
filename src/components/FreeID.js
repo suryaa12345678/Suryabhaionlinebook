@@ -20,7 +20,7 @@ export default function FreeID() {
                             </li>
                         </ul>
                     </div>
-                    <a target="_blank" href="https://www.whatsapp.com/" class="claimButton">Get your free ID Here</a>
+                    <a target="_blank" href="https://wa.me/918988811144" class="claimButton golden-btn">Get your free ID Here</a>
                 </div>
                 <div className="idRight">
                     <div className="info1">
