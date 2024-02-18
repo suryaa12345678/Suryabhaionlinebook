@@ -12,7 +12,7 @@ export default function Instagram() {
         <div className='insta-icons'>
         <CardItem
           link={
-            "/Insta1.png"
+            "/Insta1.webp"
           }
           width={"90%"}
         />
@@ -20,7 +20,7 @@ export default function Instagram() {
         <div className='insta-icons'>
         <CardItem
           link={
-            "/Insta2.png"
+            "/Insta2.webp"
           }
           width={"90%"}
         />
@@ -28,7 +28,7 @@ export default function Instagram() {
         <div className='insta-icons'>
         <CardItem
           link={
-            "/Insta3.png"
+            "/Insta3.webp"
           }
           width={"90%"}
         />

@@ -19,7 +19,7 @@ export default function Offer() {
                         </div>
                     </h2>
                     <a target="_blank" href="https://wa.me/918988811144" class="whatsappicon">
-                        <img src="./whatsapp.png" alt="WhatsApp" width={'50px'} title="WhatsApp" />   WhatsApp
+                        <img src="./whatsapp.webp" alt="WhatsApp" width={'50px'} title="WhatsApp" />   WhatsApp
                     </a>
                 </div>
                 <div className='offersRight'>
