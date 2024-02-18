@@ -10,7 +10,7 @@ export default function Index() {
             <div className="WrapperTransparent">
                 <div className="frontLeft">
                     <div className="logo">
-                        <img src="/Suryabhailogo.png" alt="" />
+                        <img src="/Suryabhailogo.webp" alt="" />
                     </div>
                 </div>
                 <div className="frontRight">
