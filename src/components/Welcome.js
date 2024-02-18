@@ -1,4 +1,6 @@
 import React from 'react'
+import Lottie from 'lottie-react';
+import Casino01 from './Casino01.json'
 
 export default function Welcome() {
   return (
@@ -6,7 +8,7 @@ export default function Welcome() {
       <h1 className="whyhead front-banner-content-heading">Why SuryaBhai best in India?</h1>
       <div className='whycontent'>
         <div className='whyimg'>
-          <img src="/Suryabhailogo.png" alt="" />
+          <Lottie animationData={Casino01} />
         </div>
         <div className='whybox'>
           <li>Min 100 deposit</li>

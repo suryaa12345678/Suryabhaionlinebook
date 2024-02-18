@@ -1,4 +1,6 @@
-import React from 'react'
+import Lottie from 'lottie-react';
+import React from 'react';
+import CustmService from './CustmService.json'
 
 export default function CustomerSupport() {
   return (
@@ -6,11 +8,7 @@ export default function CustomerSupport() {
       <div className="WrapperTransparent">
         <div className="cs-box2">
           <div>
-            <img
-              src="/Suryabhailogo.png"
-              alt=""
-              width={'60%'}
-            />
+            <Lottie animationData={CustmService} />
           </div>
           <div>
             <h1 className="front-banner-content-heading">24 HOURS SERVICES</h1>

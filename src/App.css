@@ -164,7 +164,7 @@
 }
 .bottom-right-image {
     position: absolute;
-    height: 60%;
+    height: 50%;
     bottom: 0;
     right: 0;
     max-width: 100%;
@@ -278,10 +278,11 @@
     font-size: 1.2rem;
     list-style:circle;
     font-weight: 500;
+    padding: 0 20px;
     justify-content: center;
 }
 
-.whyimg img{
+.whyimg{
     width: 40vw;
 }
 
@@ -373,6 +374,8 @@
     color: white;
     text-align: center;
     padding-bottom: 20px;
+    display: flex;
+    flex-direction: column;
 }
 .games-div .btn{
     margin: 20px;
@@ -512,7 +515,7 @@
 }
 .whatsappicon{
     background-color: #ffffff;
-    padding: 18px 44px;
+    padding: 18px 20px;
     border-radius: 40px;
     font-size: 20px;
     color: #085531;
@@ -582,8 +585,9 @@
 }
 .claimButton {
     color: #000000;
-    padding: 18px 44px;
+    padding: 18px 20px;
     border-radius: 40px;
+    justify-content: center;
     font-size: 20px;
     display: inline-flex;
     align-items: center;
@@ -868,6 +872,9 @@
     }
     .Rotor-box1 .claimButton{
         width: 100%;
+        font-size: small;
+        font-weight: 700;
+        height: auto;
     }
     .Rotor-box1 .claimButton span{
         width: 100%;
@@ -877,6 +884,7 @@
     }
     .Rotor-line{
         margin: auto;
+        width: auto;
     }
     .rotortext{
         font-size: 1.5rem;
@@ -884,8 +892,10 @@
     .Rotor-box1 .btn{
         display: block;
         width: 90%;
+        font-size: small;
         font-weight: 700;
-        height: 50px;
+        min-height: 50px;
+        max-height: auto;
         margin: auto;
     }
 
@@ -901,6 +911,14 @@
         text-align: center;
         padding: 30px;
     }
+    .cs-box1 .whatsappicon{
+        width: 70%;
+        font-size: small;
+    }
+    .cs-box1 .whatsappicon img{
+        width: 40px;
+    }
+
     .custbtn .btn{
         width: 100%;
         font-weight: 700;
@@ -916,18 +934,25 @@
 
     .games-div{
         height: auto;
-
     }
-    .games-div .claimButton{
-        margin: 10px 0;
+    .gamesContent .claimButton{
+        width: 80%!important;
+        height: auto!important;
+        font-size: small;
+        font-weight: 700;
+        margin: 20px 0;
+    }
+    .gamesContent{
+       justify-content: center;
     }
     
-    .games-div .btn{
+    .gamesContent .btn{
         display: block;
-        width: 90vw;
+        width: 80%;
+        font-size: small;
         font-weight: 700;
         height: 50px;
-        margin-bottom: 30px;
+        margin: 10px auto;
     }
     .games-div h2{
         padding: 20px 0;
@@ -984,6 +1009,9 @@
     .contact-box1{
         width: 100%;
     }
+    .contact-box1 img{
+        width: 250px;
+    }
     .contact-box2{
         width: 100%;
         text-align: center;
@@ -1018,14 +1046,16 @@
       }
       .frontLeft{
         width: 100vw;
-        height: 40vh;
+        height: 55vh;
         display: flex;
         justify-content: center;
         align-items: center;
+        padding: 10px;
       }
       .frontLeft .logo img{
-        object-fit:fill;
-        height: 400px;
+        object-fit: contain;
+        width: 35vh;
+        height: auto;
       }
       .frontRight{
         width: 100vw;
@@ -1060,6 +1090,8 @@
     }
     .whatsappicon{
         margin: 30px auto;
+        width: 100%;
+        justify-content: center;
     }
 
     .offersRight{
@@ -1108,6 +1140,11 @@
         .info2{
             flex-direction: column;
             margin: 0;
+        }
+
+        .claimButton{
+            width: 100%;
+            font-size: medium;
         }
 
     

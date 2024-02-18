@@ -15,22 +15,24 @@ export default function Games() {
   };
   return (
     <div className="games-div golden-background">
-      <h1 className="front-banner-content-heading games-heading">
-        How to play
-      </h1>
-      <h2>Your bet in our IDs</h2>
-      <p className="games-content">
-        With Our Step-By-Step Guide For Beginners, Get Started Playing. Start
-        Learning Now.. 24/7 ACTIVE.
-      </p>
-      <hr className="Rotor-line games-line" />
-      <br />
-      <a target="_blank" href="https://wa.me/918988811133" class="claimButton golden-btn"><span>Get your free ID Here</span></a>
-      <p className="games-message">
-        We Deal Only On WhatsApp
-      </p>
-      <button className="btn golden-btn btn-warning" onClick={() => handleButtonClick("https://wa.me/918988811133")}>+91 8988811133</button>
-      <button className="btn golden-btn btn-warning" onClick={() => handleButtonClick("https://wa.me/918988811144")}>+91 8988811144</button>
+      <div className='gamesContent'>
+        <h1 className="front-banner-content-heading games-heading">
+          How to play
+        </h1>
+        <h2>Your bet in our IDs</h2>
+        <p className="games-content">
+          With Our Step-By-Step Guide For Beginners, Get Started Playing. Start
+          Learning Now.. 24/7 ACTIVE.
+        </p>
+        <hr className="Rotor-line games-line" />
+        <br />
+        <a target="_blank" href="https://wa.me/918988811133" class="claimButton golden-btn"><span>Get your free ID Here</span></a>
+        <p className="games-message">
+          We Deal Only On WhatsApp
+        </p>
+        <button className="btn golden-btn btn-warning" onClick={() => handleButtonClick("https://wa.me/918988811133")}>+91 8988811133</button>
+        <button className="btn golden-btn btn-warning" onClick={() => handleButtonClick("https://wa.me/918988811144")}>+91 8988811144</button>
+      </div>
       <div className="games-logo-container">
         <div className='card-container'>
           <div className='animation'>
@@ -50,10 +52,10 @@ export default function Games() {
           </div>
         </div>
         <div className='card-container'>
-          
+
           <div className='animation'>
-          <Lottie animationData={Tennis}
-          />
+            <Lottie animationData={Tennis}
+            />
           </div>
           <div className='gname'>
             Tennis
@@ -61,8 +63,8 @@ export default function Games() {
         </div>
         <div className='card-container'>
           <div className='animation'>
-          <Lottie animationData={Casino}
-          />
+            <Lottie animationData={Casino}
+            />
           </div>
           <div className='gname'>
             Casino
@@ -70,8 +72,8 @@ export default function Games() {
         </div>
         <div className='card-container'>
           <div className='animation'>
-          <Lottie animationData={Tpatti}
-          />
+            <Lottie animationData={Tpatti}
+            />
           </div>
           <div className='gname'>
             Teen Paati
