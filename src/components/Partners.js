@@ -6,14 +6,21 @@ export default function Partners() {
   const [modalIsOpen, setModalIsOpen] = useState(false);
   const [selectedCard, setSelectedCard] = useState({ username: '', id: '' });
 
-  const handleCardClick = (username, id) => {
+  const handleCardClick = (username, id, url) => {
     setSelectedCard({ username, id });
-    setModalIsOpen(true);
+    // setModalIsOpen(true);
+
+    const isConfirmed = window.confirm(`Do you want to continue to partners? \nUsername: ${username}, \nID: ${id}`);
+
+    if (isConfirmed) {
+      window.open(url, '_blank');
+    }
+
   };
 
-  const handleContinueClick = (url) => {
-    window.open(url, '_blank');
-  };
+  // const handleContinueClick = (url) => {
+  //   window.open(url, '_blank');
+  // };
 
   return (
     <div className="Sponser-div bg-black text-light">
@@ -23,40 +30,40 @@ export default function Partners() {
           <CardItem
             link={"/SportBuzzExch.png"}
             width={"80%"}
-            onClick={() => handleCardClick("Sportbuzz", "Asdf1111")}
+            onClick={() => handleCardClick("Sportbuzz", "Asdf1111", "http://www.sportbuzzexch.com")}
           />
         </div>
         <div className='card-container'>
           <CardItem
             link={"./sportbuzz777.png"}
             width={"80%"}
-            onClick={() => handleCardClick("Buzz777demo", "Asdf1111")}
+            onClick={() => handleCardClick("Buzz777demo", "Asdf1111", "http://www.sportbuzz777.com")}
           />
         </div>
         <div className='card-container'>
           <CardItem
             link={"./SuryaBhaiBuzz.png"}
             width={"80%"}
-            onClick={() => handleCardClick("Buzzdemo", "Asdf1111")}
+            onClick={() => handleCardClick("Buzzdemo", "Asdf1111", "http://www.suryabhaibuzz.com")}
           />
         </div>
         <div className='card-container'>
           <CardItem
             link={"./SuryaBhai247.png"}
             width={"80%"}
-            onClick={() => handleCardClick("Suryasky", "Asdf1111")}
+            onClick={() => handleCardClick("Suryasky", "Asdf1111", "http://www.suryabhai247.com")}
           />
         </div>
       </div>
 
 
-      <Modal
+      {/* <Modal
         isOpen={modalIsOpen}
         onRequestClose={() => setModalIsOpen(false)}>
         <h2 className="modal-heading">Username: {selectedCard.username}</h2>
         <h2>ID: {selectedCard.id}</h2>
         <button className="modal-button" onClick={() => handleContinueClick("http://www.sportbuzzexch.com")} >Continue to partners</button>
-      </Modal>
+      </Modal> */}
     </div>
   );
 }

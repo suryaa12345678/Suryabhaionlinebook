@@ -1,3 +1,16 @@
+.whatsapp_float {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    z-index: 100;
+    cursor: pointer;
+    transition: transform 0.3s ease-in-out;
+  }
+  
+  .whatsapp_float:hover {
+    transform: scale(1.1);
+  }
+
 
 .header-div {
     background-image: url("https://png.pngtree.com/thumb_back/fh260/background/20230630/pngtree-gold-and-black-casino-roulette-with-3d-rendering-illustration-image_3727105.jpg"); 
@@ -738,6 +751,11 @@
 /* Responsiveness for Mobile */
 @media only screen and (max-width: 767px) {
     /* Styles for mobile */
+    .whatsapp_float {
+        bottom: 30px;
+        right: 15px;
+      }
+
     .header-div{
         height: auto;
     }

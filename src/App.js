@@ -19,6 +19,7 @@ import Partners from './components/Partners';
 
 function App() {
   return (
+    <>
     <div className="App">
       {/* <Header /> */}
       <Index />
@@ -35,6 +36,14 @@ function App() {
       <Contact />
       <Footer />
     </div>
+    
+
+    <div className="whatsapp_float">
+        <a href="https://wa.me/918988811133?" target="_blank" rel="">
+          <img src={"./whatsapp.png"} alt="WhatsApp Logo" width="60px" />
+        </a>
+      </div>
+    </>
   );
 }
 
