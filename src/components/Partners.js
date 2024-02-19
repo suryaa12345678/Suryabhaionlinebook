@@ -23,7 +23,7 @@ export default function Partners() {
   // };
 
   return (
-    <div className="Sponser-div bg-black text-light">
+    <div id='partners' className="Sponser-div bg-black text-light">
       <h1 className="front-banner-content-heading p-5 sponser_hed">View our Partners</h1>
       <div className="sponser-list">
         <div className='card-container'>

@@ -31,7 +31,7 @@ export default function Index() {
                     <div className="queries">
                         <div className="box1 box">
                             <h5>Veiw Our Partners</h5>
-                            <button className="btn golden-btn btn-warning" >Click for demo</button>
+                            <a href="#partners" className="btn golden-btn btn-warning" >Click for demo</a>
                         </div>
                         <div className="box2 box">
                             <h5>For Any Queries WhatsApp Us On</h5>
@@ -48,4 +48,3 @@ export default function Index() {
         </div>
     );
 }
-
