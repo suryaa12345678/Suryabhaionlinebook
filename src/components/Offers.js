@@ -6,6 +6,8 @@ export default function Offer() {
 
     return (
         <div className='offers'>
+            <img className="singleGirl" src="/singleGirl.webp" alt="Three Girls In red dress" />
+
             <div className="offersTransparent">
                 <div className='offersLeft'>
 

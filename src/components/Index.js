@@ -8,6 +8,7 @@ export default function Index() {
     return (
         <div className="header-div">
             <div className="WrapperTransparent">
+
                 <div className="frontLeft">
                     <div className="logo">
                         <img src="/Suryabhailogo.webp" alt="" />
@@ -40,9 +41,9 @@ export default function Index() {
                         </div>
                     </div>
                     <div className="front-banner-image">
-                    <img className='bottom-right-image' src="./girl.png" alt=""
-                    />
-                </div>
+                        <img className='bottom-right-image' src="./girl.png" alt=""
+                        />
+                    </div>
                 </div>
             </div>
         </div>
