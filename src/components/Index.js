@@ -40,7 +40,7 @@ export default function Index() {
                         </div>
                     </div>
                     <div className="front-banner-image">
-                    <img className='bottom-right-image' src="./girl.png" alt=""
+                    <img className='bottom-right-image' src="./girl.webp" alt=""
                     />
                 </div>
                 </div>
