@@ -32,7 +32,7 @@ function App() {
         {/* <Carousel /> */}
         <Instagram />
         <Contact />
-        <Footer />
+        {/* <Footer /> */}
       </div>
 
 
