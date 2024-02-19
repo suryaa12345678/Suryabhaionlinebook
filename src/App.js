@@ -34,7 +34,7 @@ function App() {
         {/* <Instagram /> */}
         <InstagramContent />
         <Contact />
-        <Footer />
+        {/* <Footer /> */}
       </div>
 
 
