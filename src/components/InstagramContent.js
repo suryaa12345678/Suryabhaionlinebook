@@ -1,6 +1,6 @@
 import React from 'react'
 
-export default function Instagram() {
+export default function InstagramContent() {
   return (
     <div className="bg-black ">
       <h1 className="front-banner-content-heading text-center text-white pt-5">
