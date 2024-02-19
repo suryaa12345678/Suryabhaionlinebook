@@ -1,4 +1,4 @@
-import logo from './logo.svg';
+
 import Header from './components/Header'
 import Index from './components/Index'
 import Welcome from './components/Welcome';
@@ -7,7 +7,6 @@ import Rotor from './components/Rotor';
 import CustomerSupport from './components/CustomerSupport';
 import Games from './components/Games';
 import Carousel from "./components/Carousel";
-import Instagram from './components/Instagram';
 import InstagramContent from './components/InstagramContent';
 import Contact from './components/Contact';
 import Offers from './components/Offers';
@@ -31,7 +30,6 @@ function App() {
         <FreeID />
         <CustomerSupport />
         {/* <Carousel /> */}
-        {/* <Instagram /> */}
         <InstagramContent />
         <Contact />
         {/* <Footer /> */}
