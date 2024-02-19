@@ -8,6 +8,7 @@ import CustomerSupport from './components/CustomerSupport';
 import Games from './components/Games';
 import Carousel from "./components/Carousel";
 import Instagram from './components/Instagram';
+import InstagramContent from './components/InstagramContent';
 import Contact from './components/Contact';
 import Offers from './components/Offers';
 import './App.css';
@@ -30,7 +31,8 @@ function App() {
         <FreeID />
         <CustomerSupport />
         {/* <Carousel /> */}
-        <Instagram />
+        {/* <Instagram /> */}
+        <InstagramContent />
         <Contact />
         <Footer />
       </div>
