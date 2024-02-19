@@ -10,21 +10,21 @@ export default function Instagram() {
       <div className="instagram-container">
         <div className='insta-icons'>
         <img
-        src="/Insta1.webp"
+        src="/insta1.webp"
         alt=""
         width="100%"
       />
         </div>
         <div className='insta-icons'>
         <img
-        src="/Insta2.webp"
+        src="/insta2.webp"
         alt=""
         width="100%"
       />
         </div>
         <div className='insta-icons'>
         <img
-        src="/Insta3.webp"
+        src="/insta3.webp"
         alt=""
         width="100%"
       />
