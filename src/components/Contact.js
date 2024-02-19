@@ -12,7 +12,7 @@ export default function Contact() {
           <img
             src="/Suryabhailogo.webp"
             alt=""
-            width={"500px"}
+            width={"80%"}
           />
 
           <p className='text-center nomior'>

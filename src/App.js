@@ -1,7 +1,6 @@
 import logo from './logo.svg';
 import Header from './components/Header'
 import Index from './components/Index'
-import Sponser from './components/Sponser'
 import Welcome from './components/Welcome';
 import Footer from './components/Footer';
 import Rotor from './components/Rotor';
@@ -23,7 +22,6 @@ function App() {
       <div className="App">
         {/* <Header /> */}
         <Index />
-        {/* <Sponser /> */}
         <Partners />
         <Rotor />
         <Welcome />
@@ -34,7 +32,7 @@ function App() {
         {/* <Carousel /> */}
         <Instagram />
         <Contact />
-        {/* <Footer /> */}
+        <Footer />
       </div>
 
 
