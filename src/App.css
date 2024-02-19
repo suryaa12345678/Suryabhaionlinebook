@@ -174,22 +174,67 @@
 
   .sponser_hed{
     margin: 0 10%;
-    padding: 30px 0!important;
+    padding: 50px 0!important;
+    text-align: center;
 }
 
+.sponser-list {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 10%;
+    justify-content: space-between;
+    gap: 20px;
+}
 .Sponser-div {
     min-height: auto;
     padding-bottom: 30px;
 }
 
-.card-container{
+.sponser-list .card-container {
+    background: #161516;
+    border-radius: 10px;
+    overflow: hidden;
+    padding: 20px;
     display: flex;
+    box-shadow: 0 0 10px rgba(234, 224, 48, 0.653);
+    border: 1px solid #dbc716;
+    flex-wrap: wrap;
     flex-direction: column;
     justify-content: space-between;
     align-items: center;
-    width: 23%;
+    width: 25%;
+    min-width: 300px;
     text-align: center;
+    margin-bottom: 40px;
+    transition: all .4s ease-in-out;
 }
+.sponser-list .card-container:hover{
+    background-color: rgb(56, 48, 5);
+}
+.cardItem-img{
+    height: 60px;
+    width: 100%;
+    object-fit: cover;
+    margin: 10px 0;
+}
+.a_parnter {
+    display: inline-block;
+    font-size: 20px;
+    font-weight: bold;
+    color: #fff;
+    width: 100%;
+    max-width: 220px;
+    margin: 30px 0 0 0;
+    padding: 18px 10px;
+    border: 1px solid #dbc716;
+    border-radius: 10px;
+    text-align: center;
+    box-shadow: 0 0 10px rgba(255,255,255,0.5);
+    background: transparent;
+    text-decoration: none;
+}
+
+
 .gname{
     font-size: 1.2rem;
     font-weight: 700;
@@ -205,14 +250,6 @@
 .whatsappContact .whatsappicon{
     margin: 0;
     width: 80%;
-}
-
-
-.sponser-list {
-    display: flex;
-    flex-wrap: wrap;
-    margin: 0 10%;
-    gap: 20px;
 }
 
 /* CSS for Partners Modal */
@@ -401,6 +438,14 @@
     justify-content: space-evenly;
     margin: 50px 10%;
 }
+.games-logo-container .card-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    width: 23%;
+    text-align: center;
+}
 
 .carouselExampleControls {
     display: flex;
@@ -422,7 +467,7 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
-    padding: 100px 0;
+    padding: 50px 0;
 }
 .insta-icons{
     width: 240px;
@@ -818,12 +863,14 @@
         margin: 0;
     }
     .sponser-list{
-        width: 100%;
+        flex-direction: column;
+        align-items: center;
         margin: 0;
         height: auto;
     }
-    .card-container{
-        width: 45%;
+    .sponser-list .card-container{
+        width: 70%;
+        min-width: 150px;
         display: flex;
         justify-content: center;
         align-items: center;
@@ -841,10 +888,6 @@
         font-size: 1rem;
         list-style:disc;
         margin: 20px 0;
-    }
-    
-    .sponser-list {
-        justify-content: center;
     }
 
     .Rotor-div{
@@ -963,7 +1006,12 @@
         gap: 60px;
     }
     .games-logo-container .card-container{
-        width: 60%;
+        width: 80%;
+            width: 70%;
+            min-width: 150px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
     }
     .games-content{
         font-size: large;
@@ -990,10 +1038,11 @@
         flex-direction: column;
         align-items: center;
         padding: 40px 0;
+        gap: 20px;
     }
     .insta-icons{
         text-align: center;
-        width: 100vw;
+        width: 80vw;
         height: auto;
         border: 3px solid goldenrod;
         background-color: black;

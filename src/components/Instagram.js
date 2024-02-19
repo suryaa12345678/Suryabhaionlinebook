@@ -1,5 +1,4 @@
 import React from 'react'
-import CardItem from './CardItem';
 
 export default function Instagram() {
   return (
@@ -10,28 +9,25 @@ export default function Instagram() {
 
       <div className="instagram-container">
         <div className='insta-icons'>
-        <CardItem
-          link={
-            "/Insta1.webp"
-          }
-          width={"90%"}
-        />
+        <img
+        src="/Insta1.webp"
+        alt=""
+        width="100%"
+      />
         </div>
         <div className='insta-icons'>
-        <CardItem
-          link={
-            "/Insta2.webp"
-          }
-          width={"90%"}
-        />
+        <img
+        src="/Insta2.webp"
+        alt=""
+        width="100%"
+      />
         </div>
         <div className='insta-icons'>
-        <CardItem
-          link={
-            "/Insta3.webp"
-          }
-          width={"90%"}
-        />
+        <img
+        src="/Insta3.webp"
+        alt=""
+        width="100%"
+      />
         </div>
       </div>
     </div>

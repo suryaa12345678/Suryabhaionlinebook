@@ -33,7 +33,7 @@ export default function CustomerSupport() {
           <h4>Customer Care No. For WhatsApp & Calling</h4>
           <br />
             <a target="_blank" href="https://wa.me/918988811133" class="whatsappicon">
-              <img src="./whatsapp.png" alt="WhatsApp" width={'50px'} title="WhatsApp" /> +91 8988811133
+              <img src="./whatsapp.webp" alt="WhatsApp" width={'50px'} title="WhatsApp" /> +91 8988811133
             </a>
         </div>
       </div>

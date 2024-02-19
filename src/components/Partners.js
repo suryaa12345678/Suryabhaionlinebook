@@ -24,33 +24,38 @@ export default function Partners() {
 
   return (
     <div className="Sponser-div bg-black text-light">
-      <h1 className="front-banner-content-heading p-5 sponser_hed">View our partners</h1>
+      <h1 className="front-banner-content-heading p-5 sponser_hed">View our Partners</h1>
       <div className="sponser-list">
         <div className='card-container'>
           <CardItem
-            link={"/SportBuzzExch.png"}
+            link={"/SportBuzzExch.webp"}
             width={"80%"}
+            heading={"SportBuzzExch"}
             onClick={() => handleCardClick("Sportbuzz", "Asdf1111", "http://www.sportbuzzexch.com")}
           />
         </div>
         <div className='card-container'>
           <CardItem
-            link={"./sportbuzz777.png"}
+            link={"./sportbuzz777.webp"}
             width={"80%"}
+            heading={"SportBuzz777"}
             onClick={() => handleCardClick("Buzz777demo", "Asdf1111", "http://www.sportbuzz777.com")}
           />
+          
         </div>
         <div className='card-container'>
           <CardItem
-            link={"./SuryaBhaiBuzz.png"}
+            link={"./SuryaBhaiBuzz.webp"}
             width={"80%"}
+            heading={"SuryaBhaiBuzz"}
             onClick={() => handleCardClick("Buzzdemo", "Asdf1111", "http://www.suryabhaibuzz.com")}
           />
         </div>
         <div className='card-container'>
           <CardItem
-            link={"./SuryaBhai247.png"}
+            link={"./SuryaBhai247.webp"}
             width={"80%"}
+            heading={"SuryaBhai247"}
             onClick={() => handleCardClick("Suryasky", "Asdf1111", "http://www.suryabhai247.com")}
           />
         </div>

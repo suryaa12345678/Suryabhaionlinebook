@@ -37,7 +37,7 @@ export default function Contact() {
               With Our Step-By-Step Guide For Beginners
             </p>
             <button className="btn golden-btn btn-warning" onClick={() => handleButtonClick("https://t.me/suryabhaionlinebookofficial/")}><img src="./telegram.webp" alt="WhatsApp" width={'30px'} title="WhatsApp" />Telegram</button>
-            <button className="btn golden-btn btn-warning" onClick={() => handleButtonClick("https://www.instagram.com/suryabhaionlinebookofficial/")}><img src="./Instagram.png" alt="WhatsApp" width={'30px'} title="WhatsApp" />Instagram</button>
+            <button className="btn golden-btn btn-warning" onClick={() => handleButtonClick("https://www.instagram.com/suryabhaionlinebookofficial/")}><img src="./Instagram.webp" alt="WhatsApp" width={'30px'} title="WhatsApp" />Instagram</button>
           </div>
 
         </div>
