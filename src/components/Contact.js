@@ -12,9 +12,15 @@ export default function Contact() {
           <img
             src="/Suryabhailogo.webp"
             alt=""
-            width={"300px"}
+            width={"500px"}
           />
-          <p className='text-center'>
+
+          <p className='text-center nomior'>
+            <img
+              src="/noMinors.png"
+              alt=""
+              width={"25px"}
+            />
             --Underage gambling is an offence--
           </p>
 

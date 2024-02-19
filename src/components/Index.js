@@ -8,6 +8,7 @@ export default function Index() {
     return (
         <div className="header-div">
             <div className="WrapperTransparent">
+
                 <div className="frontLeft">
                     <div className="logo">
                         <img src="/Suryabhailogo.webp" alt="" />

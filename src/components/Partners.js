@@ -24,6 +24,8 @@ export default function Partners() {
 
   return (
     <div id='partners' className="Sponser-div bg-black text-light">
+      <img className="threeGirl" src="/PngItem_5275293.webp" alt="Three Girls In red dress" />
+
       <h1 className="front-banner-content-heading p-5 sponser_hed">View our Partners</h1>
       <div className="sponser-list">
         <div className='card-container'>
@@ -41,7 +43,7 @@ export default function Partners() {
             heading={"SportBuzz777"}
             onClick={() => handleCardClick("Buzz777demo", "Asdf1111", "http://www.sportbuzz777.com")}
           />
-          
+
         </div>
         <div className='card-container'>
           <CardItem

@@ -20,25 +20,25 @@ import Partners from './components/Partners';
 function App() {
   return (
     <>
-    <div className="App">
-      {/* <Header /> */}
-      <Index />
-      {/* <Sponser /> */}
-      <Partners />
-      <Rotor />
-      <Welcome />
-      <Games />
-      <Offers />
-      <FreeID />
-      <CustomerSupport />
-      {/* <Carousel /> */}
-      <Instagram />
-      <Contact />
-      <Footer />
-    </div>
-    
+      <div className="App">
+        {/* <Header /> */}
+        <Index />
+        {/* <Sponser /> */}
+        <Partners />
+        <Rotor />
+        <Welcome />
+        <Games />
+        <Offers />
+        <FreeID />
+        <CustomerSupport />
+        {/* <Carousel /> */}
+        <Instagram />
+        <Contact />
+        {/* <Footer /> */}
+      </div>
 
-    <div className="whatsapp_float">
+
+      <div className="whatsapp_float">
         <a href="https://wa.me/918988811133?" target="_blank" rel="">
           <img src={"./whatsapp.webp"} alt="WhatsApp Logo" width="60px" />
         </a>
