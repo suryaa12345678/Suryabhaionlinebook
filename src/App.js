@@ -37,7 +37,7 @@ function App() {
 
 
       <div className="whatsapp_float">
-        <a href="https://wa.me/918988811133?" target="_blank" rel="">
+        <a href="https://wa.me/918988811199" target="_blank" rel="noreferrer">
           <img src={"./whatsapp.webp"} alt="WhatsApp Logo" width="60px" />
         </a>
       </div>

@@ -36,14 +36,14 @@ export default function Index() {
                         </div>
                         <div className="box2 box">
                             <h5>For Any Queries WhatsApp Us On</h5>
-                            <button className="btn golden-btn btn-warning" onClick={() => handleButtonClick("https://wa.me/918988811133")}>+91 8988811133</button> &nbsp;
-                            <button className="btn golden-btn btn-warning" onClick={() => handleButtonClick("https://wa.me/918988811144")}>+91 8988811144</button>
+                            <button className="btn golden-btn btn-warning" onClick={() => handleButtonClick("https://wa.me/918988811155")}>+91 8988811155</button> &nbsp;
+                            <button className="btn golden-btn btn-warning" onClick={() => handleButtonClick("https://wa.me/918988811166")}>+91 8988811166</button>
                         </div>
                     </div>
                     <div className="front-banner-image">
-                    <img className='bottom-right-image' src="./girl.webp" alt=""
-                    />
-                </div>
+                        <img className='bottom-right-image' src="./girl.webp" alt=""
+                        />
+                    </div>
                 </div>
             </div>
         </div>

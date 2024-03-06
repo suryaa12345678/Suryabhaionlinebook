@@ -10,17 +10,17 @@ export default function FreeID() {
                     <div>
                         <ul class="blist">
                             <li>
-                                 Safe and trusted Betting service
+                                Safe and trusted Betting service
                             </li>
                             <li>
-                                 Quick deposit and withdraw from SuryaBhai Platform
+                                Quick deposit and withdraw from SuryaBhai Platform
                             </li>
                             <li>
                                 Daily Offers & Bonuses
                             </li>
                         </ul>
                     </div>
-                    <a target="_blank" href="https://wa.me/918988811144" class="claimButton golden-btn">Get your free ID Here</a>
+                    <a target="_blank" href="https://wa.me/918988811166" class="claimButton golden-btn">Get your free ID Here</a>
                 </div>
                 <div className="idRight">
                     <div className="info1">

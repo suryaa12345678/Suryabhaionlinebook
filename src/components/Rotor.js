@@ -24,13 +24,13 @@ export default function Rotor() {
         </h3>
         <hr className="Rotor-line" />
         <h3>We Deals Only On WhatsApp</h3>
-        <button className="btn golden-btn btn-warning" onClick={() => handleButtonClick("https://wa.me/918988811133")}>+91 8988811133</button>{" "}
+        <button className="btn golden-btn btn-warning" onClick={() => handleButtonClick("https://wa.me/918988811155")}>+91 8988811155</button>{" "}
         &nbsp;&nbsp;&nbsp;&nbsp;
-        <button className="btn golden-btn btn-warning" onClick={() => handleButtonClick("https://wa.me/918988811133")} >+91 8988811144</button>
-        <a target="_blank" href="https://wa.me/918988811133" class="claimButton golden-btn"><span>Get your free ID Here</span></a>
+        <button className="btn golden-btn btn-warning" onClick={() => handleButtonClick("https://wa.me/918988811155")} >+91 8988811166</button>
+        <a target="_blank" href="https://wa.me/918988811155" class="claimButton golden-btn"><span>Get your free ID Here</span></a>
       </div>
       <div className="Rotor-box2" id="wheel">
-      <Lottie animationData={Casino}
+        <Lottie animationData={Casino}
         />
       </div>
     </div>

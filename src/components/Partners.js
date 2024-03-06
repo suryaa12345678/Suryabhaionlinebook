@@ -49,8 +49,8 @@ export default function Partners() {
           <CardItem
             link={"./SuryaBhaiBuzz.webp"}
             width={"80%"}
-            heading={"SuryaBhaiBuzz"}
-            onClick={() => handleCardClick("Buzzdemo", "Asdf1111", "http://www.suryabhaibuzz.com")}
+            heading={"Demosaffr"}
+            onClick={() => handleCardClick("Demosaffr", "Asdf1111", "http://www.saffronexch.com")}
           />
         </div>
         <div className='card-container'>

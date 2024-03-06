@@ -18,9 +18,9 @@ export default function Header() {
           </div>
           <div className="box2 box">
             <h5>For Any Queries WhatsApp Us On</h5>
-            <button className="btn golden-btn btn-warning">+91 8988811133</button>
+            <button className="btn golden-btn btn-warning">+91 8988811155</button>
             <br />
-            <button className="btn golden-btn btn-warning">+91 8988811144</button>
+            <button className="btn golden-btn btn-warning">+91 8988811166</button>
           </div>
         </div>
       </div>
@@ -28,20 +28,20 @@ export default function Header() {
       <div className="front-banner">
         <div className="front-banner-content">
           <span>
-          <h1 className="front-banner-content-heading">
-            SuryaBhai <br/>ONLINE BOOK
-          </h1>
+            <h1 className="front-banner-content-heading">
+              SuryaBhai <br />ONLINE BOOK
+            </h1>
           </span>
           <h4 className="front-banner-content-sub-heading">
-          Favourite of north and south punters
+            Favourite of north and south punters
           </h4>
           <br />
           <h4 className="front-banner-content-sub-heading">
-          Play online for real money in India and make bet on games like Cricket, Casino, Football, Tennis and many more.
+            Play online for real money in India and make bet on games like Cricket, Casino, Football, Tennis and many more.
           </h4>
         </div>
         <div className="front-banner-image">
-          <img className='bottom-right-image' src="https://www.aaonlinebook.com/images/girl2.png"  alt=""
+          <img className='bottom-right-image' src="https://www.aaonlinebook.com/images/girl2.png" alt=""
           />
         </div>
       </div>
