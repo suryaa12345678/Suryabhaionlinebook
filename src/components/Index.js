@@ -36,8 +36,8 @@ export default function Index() {
                         </div>
                         <div className="box2 box">
                             <h5>For Any Queries WhatsApp Us On</h5>
-                            <button className="btn golden-btn btn-warning" onClick={() => handleButtonClick("https://wa.me/918988811155")}>+91 8988811155</button> &nbsp;
-                            <button className="btn golden-btn btn-warning" onClick={() => handleButtonClick("https://wa.me/918988811166")}>+91 8988811166</button>
+                            <button className="btn golden-btn btn-warning" onClick={() => handleButtonClick("https://wa.me/918988844411")}>+91 8988844411</button> &nbsp;
+                            <button className="btn golden-btn btn-warning" onClick={() => handleButtonClick("https://wa.me/918988844422")}>+91 8988844422</button>
                         </div>
                     </div>
                     <div className="front-banner-image">
