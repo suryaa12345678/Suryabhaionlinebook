@@ -18,9 +18,9 @@ export default function Header() {
           </div>
           <div className="box2 box">
             <h5>For Any Queries WhatsApp Us On</h5>
-            <button className="btn golden-btn btn-warning">+91 8988844411</button>
+            <button className="btn golden-btn btn-warning">+91 8988844433</button>
             <br />
-            <button className="btn golden-btn btn-warning">+91 8988844422</button>
+            <button className="btn golden-btn btn-warning">+91 8988844477</button>
           </div>
         </div>
       </div>

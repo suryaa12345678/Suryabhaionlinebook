@@ -19,7 +19,7 @@ export default function Offer() {
                             <span><b>3%</b> Referral Bonus Now</span>
                         </div>
                     </h2>
-                    <a target="_blank" href="https://wa.me/918988844422" class="whatsappicon">
+                    <a target="_blank" href="https://wa.me/918988844477" class="whatsappicon">
                         <img src="./whatsapp.webp" alt="WhatsApp" width={'50px'} title="WhatsApp" />   WhatsApp
                     </a>
                 </div>

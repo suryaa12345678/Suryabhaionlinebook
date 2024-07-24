@@ -26,12 +26,12 @@ export default function Games() {
         </p>
         <hr className="Rotor-line games-line" />
         <br />
-        <a target="_blank" href="https://wa.me/918988844411" class="claimButton golden-btn"><span>Get your free ID Here</span></a>
+        <a target="_blank" href="https://wa.me/918988844433" class="claimButton golden-btn"><span>Get your free ID Here</span></a>
         <p className="games-message">
           We Deal Only On WhatsApp
         </p>
-        <button className="btn golden-btn btn-warning" onClick={() => handleButtonClick("https://wa.me/918988844411")}>+91 8988844411</button>
-        <button className="btn golden-btn btn-warning" onClick={() => handleButtonClick("https://wa.me/918988844422")}>+91 8988844422</button>
+        <button className="btn golden-btn btn-warning" onClick={() => handleButtonClick("https://wa.me/918988844433")}>+91 8988844433</button>
+        <button className="btn golden-btn btn-warning" onClick={() => handleButtonClick("https://wa.me/918988844477")}>+91 8988844477</button>
       </div>
       <div className="games-logo-container">
         <div className='card-container'>

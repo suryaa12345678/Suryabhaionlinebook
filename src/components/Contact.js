@@ -37,8 +37,8 @@ export default function Contact() {
 
           <div className='whatsappDetails'>
             <p className="contact-content">Whatsapp us on:</p>
-            <button className="btn golden-btn btn-warning" onClick={() => handleButtonClick("https://wa.me/918988844411")} >+91 8988844411</button>
-            <button className="btn golden-btn btn-warning" onClick={() => handleButtonClick("https://wa.me/918988844422")} >+91 8988844422</button>
+            <button className="btn golden-btn btn-warning" onClick={() => handleButtonClick("https://wa.me/918988844433")} >+91 8988844433</button>
+            <button className="btn golden-btn btn-warning" onClick={() => handleButtonClick("https://wa.me/918988844477")} >+91 8988844477</button>
             <p className="contact-content">
               With Our Step-By-Step Guide For Beginners
             </p>
