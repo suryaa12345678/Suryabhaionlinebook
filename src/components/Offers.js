@@ -1,6 +1,7 @@
 import React from 'react';
 import Lottie from 'lottie-react';
 import Bonus from './Bonus.json';
+import { number2 } from '../numbers';
 
 export default function Offer() {
 
@@ -19,7 +20,7 @@ export default function Offer() {
                             <span><b>3%</b> Referral Bonus Now</span>
                         </div>
                     </h2>
-                    <a target="_blank" href="https://wa.me/918988811144" class="whatsappicon">
+                    <a target="_blank" href={`https://wa.me/91${number2}`} class="whatsappicon">
                         <img src="./whatsapp.webp" alt="WhatsApp" width={'50px'} title="WhatsApp" />   WhatsApp
                     </a>
                 </div>

@@ -1,4 +1,5 @@
 import React from 'react'
+import { number1, number2 } from '../numbers';
 
 export default function Header() {
   return (
@@ -18,9 +19,9 @@ export default function Header() {
           </div>
           <div className="box2 box">
             <h5>For Any Queries WhatsApp Us On</h5>
-            <button className="btn golden-btn btn-warning">+91 8988811144</button>
+            <button className="btn golden-btn btn-warning">+91 ${number1}</button>
             <br />
-            <button className="btn golden-btn btn-warning">+91 8988811144</button>
+            <button className="btn golden-btn btn-warning">+91 ${number2}</button>
           </div>
         </div>
       </div>

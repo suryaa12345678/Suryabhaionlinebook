@@ -1,4 +1,5 @@
 import React from "react";
+import { number1, number2 } from "../numbers";
 
 export default function Index() {
     const handleButtonClick = (url) => {
@@ -36,8 +37,8 @@ export default function Index() {
                         </div>
                         <div className="box2 box">
                             <h5>For Any Queries WhatsApp Us On</h5>
-                            <button className="btn golden-btn btn-warning" onClick={() => handleButtonClick("https://wa.me/918988811144")}>+91 8988811144</button> &nbsp;
-                            <button className="btn golden-btn btn-warning" onClick={() => handleButtonClick("https://wa.me/918988811144")}>+91 8988811144</button>
+                            <button className="btn golden-btn btn-warning" onClick={() => handleButtonClick(`https://wa.me/91${number2}`)}>+91 {number2}</button> &nbsp;
+                            <button className="btn golden-btn btn-warning" onClick={() => handleButtonClick(`https://wa.me/91${number1}`)}>+91 {number1}</button>
                         </div>
                     </div>
                     <div className="front-banner-image">

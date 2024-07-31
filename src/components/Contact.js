@@ -1,4 +1,5 @@
 import React from 'react'
+import { number1, number2 } from '../numbers';
 
 export default function Contact() {
   const handleButtonClick = (url) => {
@@ -37,8 +38,9 @@ export default function Contact() {
 
           <div className='whatsappDetails'>
             <p className="contact-content">Whatsapp us on:</p>
-            <button className="btn golden-btn btn-warning" onClick={() => handleButtonClick("https://wa.me/918988811144")} >+91 8988811144</button>
-            <button className="btn golden-btn btn-warning" onClick={() => handleButtonClick("https://wa.me/918988811144")} >+91 8988811144</button>
+            <button className="btn golden-btn btn-warning" onClick={() => handleButtonClick(`https://wa.me/91${number1}`)} >+91 {number1}</button>
+            <button className="btn golden-btn btn-warning" onClick={() => handleButtonClick(`https://wa.me/91${number2}`)} >+91 {number2}</button>
+
             <p className="contact-content">
               With Our Step-By-Step Guide For Beginners
             </p>

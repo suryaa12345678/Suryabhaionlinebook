@@ -14,6 +14,7 @@ import './App.css';
 import Lottie from 'lottie-react';
 import FreeID from './components/FreeID';
 import Partners from './components/Partners';
+import { number1 } from './numbers';
 
 
 function App() {
@@ -37,7 +38,7 @@ function App() {
 
 
       <div className="whatsapp_float">
-        <a href="https://wa.me/918988811144" target="_blank" rel="noreferrer">
+        <a href={`https://wa.me/91${number1}`} target="_blank" rel="noreferrer">
           <img src={"./whatsapp.webp"} alt="WhatsApp Logo" width="60px" />
         </a>
       </div>

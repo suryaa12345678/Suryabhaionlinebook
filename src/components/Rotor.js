@@ -1,6 +1,7 @@
 
 import Lottie from 'lottie-react';
 import Casino from './Casino.json';
+import { number1, number2 } from '../numbers';
 
 export default function Rotor() {
   const handleButtonClick = (url) => {
@@ -24,10 +25,10 @@ export default function Rotor() {
         </h3>
         <hr className="Rotor-line" />
         <h3>We Deals Only On WhatsApp</h3>
-        <button className="btn golden-btn btn-warning" onClick={() => handleButtonClick("https://wa.me/918988811144")}>+91 8988811144</button>{" "}
+        <button className="btn golden-btn btn-warning" onClick={() => handleButtonClick(`https://wa.me/91${number1}`)}>+91 {number1}</button>{" "}
         &nbsp;&nbsp;&nbsp;&nbsp;
-        <button className="btn golden-btn btn-warning" onClick={() => handleButtonClick("https://wa.me/918988811144")} >+91 8988811144</button>
-        <a target="_blank" href="https://wa.me/918988811144" class="claimButton golden-btn"><span>Get your free ID Here</span></a>
+        <button className="btn golden-btn btn-warning" onClick={() => handleButtonClick(`https://wa.me/91${number2}`)}>+91 {number2}</button>
+        <a target="_blank" href={`https://wa.me/91${number1}`} class="claimButton golden-btn"><span>Get your free ID Here</span></a>
       </div>
       <div className="Rotor-box2" id="wheel">
         <Lottie animationData={Casino}

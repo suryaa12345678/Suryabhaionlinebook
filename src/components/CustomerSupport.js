@@ -1,6 +1,7 @@
 import Lottie from 'lottie-react';
 import React from 'react';
 import CustmService from './CustmService.json'
+import { number1 } from '../numbers';
 
 export default function CustomerSupport() {
   return (
@@ -32,8 +33,8 @@ export default function CustomerSupport() {
           <br />
           <h4>Customer Care No. For WhatsApp & Calling</h4>
           <br />
-          <a target="_blank" href="https://wa.me/918988811144" class="whatsappicon">
-            <img src="./whatsapp.webp" alt="WhatsApp" width={'50px'} title="WhatsApp" /> +91 8988811144
+          <a target="_blank" href={`https://wa.me/91${number1}`} class="whatsappicon">
+            <img src="./whatsapp.webp" alt="WhatsApp" width={'50px'} title="WhatsApp" /> +91 {number1}
           </a>
         </div>
       </div>

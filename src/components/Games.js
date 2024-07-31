@@ -7,6 +7,7 @@ import Football from './Football.json';
 import Casino from './Casino.json';
 import Tpatti from './Tpatti.json';
 import Whatsapp from './Whatsapp.json';
+import { number1, number2 } from '../numbers';
 
 export default function Games() {
   const handleButtonClick = (url) => {
@@ -26,12 +27,12 @@ export default function Games() {
         </p>
         <hr className="Rotor-line games-line" />
         <br />
-        <a target="_blank" href="https://wa.me/918988811144" class="claimButton golden-btn"><span>Get your free ID Here</span></a>
+        <a target="_blank" href={`https://wa.me/91${number2}`} class="claimButton golden-btn"><span>Get your free ID Here</span></a>
         <p className="games-message">
           We Deal Only On WhatsApp
         </p>
-        <button className="btn golden-btn btn-warning" onClick={() => handleButtonClick("https://wa.me/918988811144")}>+91 8988811144</button>
-        <button className="btn golden-btn btn-warning" onClick={() => handleButtonClick("https://wa.me/918988811144")}>+91 8988811144</button>
+        <button className="btn golden-btn btn-warning" onClick={() => handleButtonClick(`https://wa.me/91${number1}`)}>+91 {number1}</button>
+        <button className="btn golden-btn btn-warning" onClick={() => handleButtonClick(`https://wa.me/91${number2}`)}>+91 {number2}</button>
       </div>
       <div className="games-logo-container">
         <div className='card-container'>
