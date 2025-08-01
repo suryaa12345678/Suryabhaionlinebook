@@ -50,7 +50,7 @@ export default function Partners() {
             link={"./SuryaBhaiBuzz.webp"}
             width={"80%"}
             heading={"Demosaffr"}
-            onClick={() => handleCardClick("Demosaffr", "Asdf1111", "http://www.saffronexch.com")}
+            onClick={() => handleCardClick("Winndemo", "Asdf@1111", "http:// www.winner7.co")}
           />
         </div>
         <div className='card-container'>
